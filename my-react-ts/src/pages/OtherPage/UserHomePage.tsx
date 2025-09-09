@@ -63,7 +63,7 @@ const UserHomePage: React.FC = () => {
             {/* Promo Section */}
             <section className="mt-24 px-6 py-16 bg-orange-50 dark:bg-gray-800 text-center">
                 <h3 className="text-2xl font-bold text-gray-800 dark:text-white mb-4">
-                    Знижка 15% на перше замовлення!
+                    Знижка 20% на перше замовлення!
                 </h3>
                 <p className="text-gray-600 dark:text-gray-300 mb-6">
                     Використай промокод <span className="font-semibold">WELCOME10</span> при оформленні замовлення.
