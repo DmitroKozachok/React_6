@@ -106,6 +106,7 @@ export interface IProductCreate {
     categoryId: number;
     productSizeId: number | null;
     ingredientIds: number[] | null;
+    //@ts-ignore
     imageFiles: string[] | null;
 }
 

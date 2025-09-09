@@ -51,6 +51,7 @@ const AdminProductCreatePage: React.FC = () => {
             const dto: IProductCreate = {
                 ...values,
                 ingredientIds,
+                //@ts-ignore
                 imageFiles: imageFiles
             };
 

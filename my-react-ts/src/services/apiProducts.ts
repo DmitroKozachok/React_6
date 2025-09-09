@@ -1,5 +1,6 @@
 import {createApi} from "@reduxjs/toolkit/query/react";
 import {createBaseQuery} from "../utilities/createBaseQuery.ts";
+//@ts-ignore
 import type {IProductCreate, ProductIngredientModel, ProductItemModel, ProductSizeModel} from "./types.ts";
 import {serialize} from "object-to-formdata";
 

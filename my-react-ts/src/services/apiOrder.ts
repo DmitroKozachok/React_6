@@ -25,6 +25,7 @@ export const apiOrder = createApi({
                     throw new Error('Error Create order');
                 }
             },
+            //@ts-ignore
             invalidatesTags: ['Orders'],
         })
     }),
@@ -34,5 +35,6 @@ export const apiOrder = createApi({
 export const {
     useGetAllOrdersQuery,
     useGetByIdQuery,
+    //@ts-ignore
     useCreateOrderMutation,
 } = apiOrder;

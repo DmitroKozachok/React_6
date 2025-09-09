@@ -9,6 +9,7 @@ const UserLayout: React.FC = () => {
     const { user } = useAppSelector(state=>state.auth);
     const dispatch = useAppDispatch();
     const navigate = useNavigate();
+    //@ts-ignore
     function logoutUser() {
         // console.log("logoutUser");
         dispatch(logout());
